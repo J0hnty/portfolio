@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>OverMij</title>
+        <style>
+            *{background-color: rgb(0, 1, 34);
+            color:rgb(61, 154, 207)}
+            
+            .gitem1 { grid-area: header; }
+            .gitem2 { grid-area: menu; }
+            .gitem3 { grid-area: main; }
+            .gitem4 { grid-area: right; }
+            .gitem5 { grid-area: footer; }
+            .gitem6 { grid-area: video; }
+        
+            .fitem {
+                padding: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 30px;
+                border:1px solid rgb(185, 64, 255);
+            }
+            
+
+            .grid-container {
+            display: grid;
+            grid-template-areas:
+            'header header header header header header'
+            'menu main main main right right'
+            'menu main main main video video'
+            'menu footer footer footer footer footer';
+            grid-gap: 10px;
+            background-color:rgb(0, 1, 34);
+            padding: 10px;}
+            
+
+            .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color:rgb(81, 0, 97);
+            }
+
+            .grid-container > div {
+            background-color:rgb(81, 0, 97);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 20px;}
+            #Error-Fake{
+                font-size: 128px;
+                text-align: center;
+                color: red;
+                margin: 0px;
+                padding: 0px;
+            }
+            #Text{
+                text-align: center;
+                font-size: 64px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="gitem1">
+                <div class="flex-container">
+                    <div><a href="Home.html">
+                        <img src="Img/Mylogo.png" alt="Home" width="70px"></a>
+                    </div>
+                    <div class="fitem">
+                        <a href="OverMij.html">Over mij</a>
+                    </div>
+                    <div class="fitem">
+                        <a href="Vaardigheden-kennis.html">Vaardigheden/Kennis</a>
+                    </div>
+                    <div class="fitem">
+                        <a href="Projecten.html">Projecten</a>
+                    </div>
+                    <div class="fitem">
+                        <a href="Contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-dark">
+                            Dit ben ik
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <img class="image-fluid rounded" src="Img/Ik.jpg" alt="Mijn Foto"  height="900px">
+                        </li>
+                    </ul> 
+                    
+                </div>
+                <div class="col-sm-6">
+                    <h3>Over mij</h3>
+                    <h5>
+                        Ik ben Johnty van Delden ik doe op het moment de opleiding Software developer.<br>
+                        Vind mijn mede studenten heel aadig en docenten gezelig om les van te hebben.<br>
+                        Toen ik bij opendagen langs ging om een mbo te zoeken.<br>
+                        Had ik hier een heel fijn gevoel en vond het een prettige sfeer hebben bij het ROC Mondriaan.<br>
+                        Ik heb ook wel veel nagedacht over wat ik wil worden.<br>
+                        In de toekomst en wil uiteindelijk toch mijn kinder droom achterna.<br>
+                        En dat is mijn eigen game maken of met nintendo® een next gen mario gen maken.<br>
+                    </h5>
+                    
+                    <!--
+                    wat wil je later worden
+                    watvind je leuk aan de opleiding
+                    wat trok je bij de opendag aan
+                    -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Mijn kwaliteiten</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Geduldig</td>
+                                <td>Leergierig</td>
+                            </tr>
+                            <tr>
+                                <td>Behulpzaam</td>
+                                <td>Optimistisch</td>
+                            </tr>
+                            <tr>
+                                <td>Positief</td>
+                                <td>Doorzetten</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning" href="Beroepsprofiel.html">Mijn beroepsprofiel</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

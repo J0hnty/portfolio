@@ -1,0 +1,178 @@
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@font-face {
+    font-family: conthrax;
+    src: url(conthrax-sb.ttf);
+}
+
+* {
+    font-family: conthrax;
+}
+
+body {
+    background-color: #B5F8FE;
+    color: #E0ACD5;
+
+}
+
+/* gebruikt in de nav*/
+.horizontal {
+    float: left;
+    padding: 20px;
+    padding-top: 50px;
+
+}
+
+.padding {
+    padding-right: 100px;
+}
+
+.img-horizontal {
+    float: left;
+
+}
+
+.nav-text {
+    font-size: 16pt;
+    color: #E0ACD5;
+
+}
+
+.nav-text:hover {
+    color: #c262ad;
+    
+}
+
+.nav {
+    background-color: #034078;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+.white-space {
+    width: 112.34px;
+}
+
+
+
+.fade-in {
+    animation: fadeIn 2s;
+    opacity: 1;
+}
+
+.fade-out {
+    animation: fadeOut 2s;
+    opacity: 0;
+}
+
+.speed-fade-out {
+    animation: fadeOut 100ms;
+    opacity: 0;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.float-left {
+    float: left;
+    justify-self: left;
+    justify-content: left;
+
+}
+
+/*posities*/
+.space-left {
+    margin-left: 40px;
+    padding-left: 40px;
+
+}
+
+.space-right {
+    margin-right: 40px;
+    padding-right: 40px;
+
+}
+
+.space-center {
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+
+}
+
+.card {
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.vraag {
+    font-size: 28pt;
+
+}
+
+.antwoord-area {
+    width: 500px;
+    height: auto;
+    resize: none;
+}
+
+/*palette*/
+.color1 {
+    background-color: #034078;
+    
+}
+
+.color2 {
+    background-color: #B5F8FE;
+
+}
+
+.color3 {
+    background-color: #48A9A6;
+
+}
+
+.color4 {
+    background-color: #15bfc5;
+    
+}
+
+.color5 {
+    color: #E0ACD5;
+
+}
+
+
+.bottom-line {
+    background-color: #034078;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 18pt;
+}

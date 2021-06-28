@@ -1,0 +1,140 @@
+@font-face {
+    font-family: conthrax;
+    src: url(conthrax-sb.ttf);
+}
+*{
+    font-family: conthrax;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+body {
+    background-color: #B5F8FE;
+}
+.horizontal{
+    float: left;
+    padding: 20px;
+    padding-top: 50px;
+}
+.nav-text{
+    font-size: 16pt;
+}
+.img-horizontal{
+    float: left;
+}
+.nav{
+    background-color: #034078;
+}
+.color1 {
+    background-color: #034078;
+
+}
+.color2 {
+    background-color: #B5F8FE;
+
+}
+.color3 {
+    background-color: #48A9A6;
+
+}
+.color4 {
+    background-color: #15bfc5;
+
+}
+.color5 {
+    background-color: #E0ACD5;
+
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #48A9A6;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #15bfc5;
+}
+.horizontal{
+    float: left;
+    padding: 20px;
+    padding-top: 50px;
+}
+.nav-text{
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #E0ACD5;
+}
+.nav-text:hover{
+    color: #c262ad;
+}
+.fade-button{
+    height: 60px;
+}
+.fade-in{
+    animation: fadeIn 2s;
+    opacity: 1;
+}
+.fade-out{
+    animation: fadeOut 2s;
+    opacity: 0;
+}
+.hide{
+    visibility: hidden;
+}
+.nav{
+    background-color: #034078;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+.white-space{
+    width: 112.34px;
+}
+.card{
+    margin-top: 50px;
+}
+#searchSelect{
+    margin-right: 50px;
+    padding-right: 50px;
+}

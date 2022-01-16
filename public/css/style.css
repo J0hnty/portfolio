@@ -1,0 +1,42 @@
+body {
+    background: #86bbd8ff;
+}
+.container {
+    background: #eaebebff;
+}
+nav {
+    margin-bottom: 25px;
+}
+.bg-platinum {
+    background: #eaebebff;
+}
+.normal-text {
+    color: #616163ff;
+    font-size: large;
+}
+.highlight-text {
+    color: #42023bff
+}
+
+
+
+
+
+
+/* CSS HEX */
+.russian-violet {
+    color: #42023bff;
+}
+.dark-sky-blue {
+    color: #86bbd8ff;
+}
+.platinum {
+    color: #eaebebff;
+}
+.dim-gray {
+    color: #616163ff;
+}
+.ruby-red {
+    color: #931f1dff;
+}
+

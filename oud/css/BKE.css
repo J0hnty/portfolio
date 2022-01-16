@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(96, 238, 231, 0.815);
+}
+.container {
+    background-color: rgba(49, 153, 172, 0.75);
+}
+
+.game-board {
+    background-color: rgba(47, 200, 211, 0.75);
+    grid-area: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 500px;
+    
+}
+
+.game-board > div 
+{
+    font-size: 100px;
+}
+.play-field {  
+    
+    height: 150px;
+    width: 150px;
+    
+    background-color: rgb(205, 255, 253);
+    display: block;
+    border:solid black 2px;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.player-one {
+    padding: 0px;
+}
+
+.player-two {
+   padding-left: 25px; 
+}
+
+.Wie-wint {
+    text-align: center;
+}
+
+.text-green {
+    color: green;
+}
+
+.visibility {
+    visibility: hidden;
+}

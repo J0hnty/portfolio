@@ -17,11 +17,16 @@ nav {
 .highlight-text {
     color: #42023bff
 }
-
-
-
-
-
+.img {
+    width: 200px;
+    height: auto;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-body { 
+    height: 400px;
+}
 
 /* CSS HEX */
 .russian-violet {
@@ -39,4 +44,7 @@ nav {
 .ruby-red {
     color: #931f1dff;
 }
-
+/* card color */
+.cc { 
+    background: rgb(89, 186, 224);
+}

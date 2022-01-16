@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <link rel="stylesheet" href="Bootstrap4_opdracht/css/cstyle.css">
+        <?php 
+            include_once '../Templates/head.php';
+        ?>
         <title>Snackbar Lekker</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             #Jumbotron {
-                background-image:url(img/ander/banner.jpg);
+                background-image:url(Bootstrap4_opdracht/img/ander/banner.jpg);
                 background-size: cover;
                 height: 250px;
                 color: rgb(71, 71, 71);
@@ -35,7 +34,7 @@
        
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <a href="index.html" class="navbar-brand">
-                <img class="img-fluid" src="img/ander/logo.png" alt="Logo" width="150px" height="auto">
+                <img class="img-fluid" src="Bootstrap4_opdracht/img/ander/logo.png" alt="Logo" width="150px" height="auto">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iceNav">
                 <span class="navbar-toggler-icon"></span>
@@ -44,16 +43,16 @@
             <div class="collapse navbar-collapse" id="iceNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="project4.html">Home</a>
+                        <a class="nav-link active" href="Bootstrap4_opdracht.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="#">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="Bootstrap4_opdracht/contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="over.html">Over Snackbar Lekker</a>
+                        <a class="nav-link" href="Bootstrap4_opdracht/over.php">Over Snackbar Lekker</a>
                     </li>
                 </ul>
             </div>
@@ -90,37 +89,37 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="img/snacks/burger.jpg" alt="Burger">
+                            <img class="card-img-top img-fluid" src="Bootstrap4_opdracht/img/snacks/burger.jpg" alt="Burger">
                             <div class="card-body">
                               <h5 class="card-title">Burger</h5>
                               <p class="card-text">De burger is in de aanbieding. </p>
                               <b id="roodT">NU: €2,50</b>
                               <br><br>
-                              <a class="btn btn-dark stretched-link" href="menu.html">Naar menukaart</a>
+                              <a class="btn btn-dark stretched-link" href="#">Naar menukaart</a>
                             </div>
                           </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="img/snacks/kroket.jpg" alt="Kroket">
+                            <img class="card-img-top img-fluid" src="Bootstrap4_opdracht/img/snacks/kroket.jpg" alt="Kroket">
                             <div class="card-body">
                               <h5 class="card-title">Kroket</h5>
                               <p class="card-text">De kroket is in de aanbieding.</p>
                               <b id="roodT">NU: €1,-</b>
                               <br><br>
-                              <a class="btn btn-dark stretched-link" href="menu.html">Naar menukaart</a>
+                              <a class="btn btn-dark stretched-link" href="#">Naar menukaart</a>
                             </div>
                           </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="img/snacks/patat.jpg" alt="Patat">
+                            <img class="card-img-top img-fluid" src="Bootstrap4_opdracht/img/snacks/patat.jpg" alt="Patat">
                             <div class="card-body">
                               <h5 class="card-title">Patat</h5>
                               <p class="card-text">De patat is in de aanbieding.</p>
                               <b id="roodT">NU: €1,50</b>
                               <br><br>
-                              <a class="btn btn-dark stretched-link" href="menu.html">Naar menukaart</a>
+                              <a class="btn btn-dark stretched-link" href="#">Naar menukaart</a>
                             </div>
                           </div>
                     </div>

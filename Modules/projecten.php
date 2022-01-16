@@ -1,5 +1,4 @@
 <?php
-
 require_once "database/Database.php";
 
 function getProjects()
@@ -8,10 +7,11 @@ function getProjects()
     $query=$pdo->prepare("SELECT * FROM projecten");
     $query->execute();
 
-    $projects=$query->fetchAll(PDO::FETCH_CLASS,"Projects" );
+    $projects=$query->fetchAll(PDO::FETCH_ASSOC );
     return $projects;
 
 }
+
 function getProject(int $id) {
 
     global $pdo;

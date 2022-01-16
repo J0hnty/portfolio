@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../public/css/style.css">
+        <?php 
+            include_once '../Templates/head.php';
+        ?>
         <link rel="stylesheet" href="../public/css/bstyle.css">
         <title>blyat maschien</title>
     </head>
@@ -16,7 +14,7 @@
                 <div class="jumbotron jumbotron-fluid">
                     <h1 class="title">calculator basis test</h1>
                     <input type="button" value="Darkmode">
-                    <a class="btn btn-primary" href="../projecten.php">Klik hier als je terug wil naar de projecten pagina</a>
+                    <a class="btn cc" href="../projecten.php">Klik hier als je terug wil naar de projecten pagina</a>
                 </div>
             
             </div>
@@ -29,7 +27,11 @@
                     
                 <div class="row">
                     <div class="col-md-4">
-
+                        <p class='normal-text'>
+                            Ik ben trots op deze eenvoudige rekenmachien!
+                            Na het hard werken aan deze rekenmachien
+                            is het mij gelukt om het werkend te krijgen :)
+                        </p>
                     </div>
                     
                     <div class=buttons>
@@ -52,19 +54,9 @@
                         <button class="btn-clear">AC</button>
                         <button class="btn-equal">=</button>
                     </div>
-                    
-                    <div class="col-md-4">
-                        <h3>
-                            Waarom ik trots ben op deze eenvoudige rekenmachien is omdat:
-                            ik er veel te lang aan gewerkt heb en het mij eindelijk is gelukt.
-                        </h3>
-                        <!--
-                            <div class="history"></div>
-                        -->
-                    </div>
                 </div>
             </div>
         </div>
-        <script src="Js/main.js"></script>
+        <script src="../public/js/main.js"></script>
     </body>
 </html>

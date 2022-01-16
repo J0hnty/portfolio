@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <?php 
+            include_once '../Templates/head.php';
+        ?>
         <link rel="stylesheet" href="../public/css/BKE.css">
     </head>
     <body>
         <header class="header">
             <h1>Boter, Kaas en eieren</h1>
-            <a class="btn btn-primary" href="../projecten.php">Klik hier als je terug wil naar de projecten pagina</a>
+            <a class="btn cc" href="../projecten.php">Klik hier als je terug wil naar de projecten pagina</a>
         </header>
         <main>
             <div class="container">

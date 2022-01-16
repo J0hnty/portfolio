@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
         <title>Snackbar Lekker</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -40,16 +38,16 @@
             <div class="collapse navbar-collapse" id="iceNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="project4.html">Home</a>
+                        <a class="nav-link" href="../Bootstrap4_opdracht.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="#">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="over.html">Over Snackbar Lekker</a>
+                        <a class="nav-link active" href="over.php">Over Snackbar Lekker</a>
                     </li>
                 </ul>
             </div>
